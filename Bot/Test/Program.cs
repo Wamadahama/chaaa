@@ -16,7 +16,7 @@ namespace DiscordBot
         static void Main(string[] args)
         {
             // Set up client for connection
-            DiscordClient client = new DiscordClient("MTgyMzIzOTIyNTg1MjU1OTM3.Ch1p4g.vEHHA6nSIQnD02yH4CWJ2Y6mG4g", isbot);
+            DiscordClient client = new DiscordClient("APP ID", isbot);
             client.ClientPrivateInformation.Email = "email";
             client.ClientPrivateInformation.Password = "password";
             ChannelMessageCount = 0;
